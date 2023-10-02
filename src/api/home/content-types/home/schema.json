@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "purpose": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "room": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "text"
+    },
+    "bath": {
+      "type": "integer"
+    },
+    "area": {
+      "type": "integer"
+    },
+    "isVerified": {
+      "type": "boolean"
+    },
+    "coverPhoto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "rurnishingStatus": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "rentFrequency": {
+      "type": "string"
+    },
+    "uploadedImage": {
+      "type": "string"
+    }
+  }
+}
